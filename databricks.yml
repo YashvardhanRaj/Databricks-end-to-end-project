@@ -1,0 +1,9 @@
+bundle:
+  name: databricks_end_to_end_project
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
